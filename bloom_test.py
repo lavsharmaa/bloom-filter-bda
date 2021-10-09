@@ -24,7 +24,7 @@ for item in animal_exists:
 shuffle(animal_exists)
 shuffle(animal_extinct)
 
-test_words = animal_exists[:10] + animal_extinct
+test_words = animal_exists[:500] + animal_extinct
 shuffle(test_words)
 for word in test_words:
     if bloomf.check(word):
